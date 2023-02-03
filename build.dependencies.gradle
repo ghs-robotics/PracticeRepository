@@ -6,6 +6,9 @@ repositories {
     }
 }
 
+// TODO: change the dependencies in order to update the control hub
+// 7.0.0 was for Freight Frenzy in 2021
+
 dependencies {
     implementation 'org.firstinspires.ftc:Inspection:7.0.0'
     implementation 'org.firstinspires.ftc:Blocks:7.0.0'

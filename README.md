@@ -1,6 +1,8 @@
 ## NOTICE
-
-Fork this repository to 
+Fork this repository and then clone it to your computer. Try to code a robot. When you want to test your code, ask one of the leads to test the code on the robot. 
+There are guides and instruction comments inside the java class files. To find those comments use the Find tool and look for "TODO:" in Project
+For Windows users the keyboard shortcut is: Ctrl + Shift + F
+For Mac users the keyboard shortcut is: command + shift + F 
 
 ## Welcome!
 This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
@@ -12,10 +14,6 @@ If you are new to robotics or new to the *FIRST* Tech Challenge, then you should
 
 Even if you are an advanced Java programmer, it is helpful to start with the [FTC Blocks tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html), and then migrate to the [OnBot Java Tool](https://ftc-docs.firstinspires.org/programming_resources/onbot_java/OnBot-Java-Tutorial.html) or to [Android Studio](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html) afterwards.
 
-## Downloading the Project
-Fork this repository and then try to code your own robot. When you want to test your code, ask one of the leads to test the code on the robot.
-
-## Getting Help
 ### User Documentation and Tutorials
 *FIRST* maintains online documentation with information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.  You can access this documentation using the following link:
 
