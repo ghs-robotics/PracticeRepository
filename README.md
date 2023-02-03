@@ -1,5 +1,6 @@
 ## NOTICE
 Fork this repository and then clone it to your computer. Try to code a robot. When you want to test your code, ask one of the leads to test the code on the robot. 
+
 There are guides and instruction comments inside the java class files. To find those comments use the Find tool and look for "TODO:" in Project
 
 For Windows users the keyboard shortcut is: Ctrl + Shift + F
