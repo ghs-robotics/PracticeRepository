@@ -33,7 +33,7 @@ public class Drivebase {
         telemetry.update();
     }
 
-    // TODO: Do some math and send power to the motors based on controller input
+    // TODO: Declare some variables do some math and use the setDrivePowers function to send power to the motors based on controller input
     // hint google mecanum drive code
     public void calculateDrivePowers(double y, double x, double rot){
 
