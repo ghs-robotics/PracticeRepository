@@ -22,7 +22,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'org.firstinspires.ftc:gameAssets-FreightFrenzy:1.0.0'
 
-//    TODO: follow this link to implement dashboard below:
-//    https://acmerobotics.github.io/ftc-dashboard/gettingstarted
 }
 
