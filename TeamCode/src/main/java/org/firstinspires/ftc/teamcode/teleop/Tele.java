@@ -20,8 +20,7 @@ public class Tele extends LinearOpMode {
         waitForStart();
 
         while (opModeIsActive()){
-            // TODO: put in controls that will drive the robot
-            robot.calculateDrivePowers();
+            // TODO: call the calculate drive method and put controls that will drive the robot
 
             telemetry.update();
         }
