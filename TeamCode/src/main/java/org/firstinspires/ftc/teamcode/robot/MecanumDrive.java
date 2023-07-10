@@ -28,7 +28,6 @@ public class MecanumDrive {
         telemetry.update();
     }
 
-    // todo pull your code from the previous level and write working code for this function
     public calculateDrivePowers(double y, double x, double rot){
 
         setDrivePowers();
