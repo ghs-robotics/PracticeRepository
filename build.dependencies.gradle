@@ -6,8 +6,8 @@ repositories {
     }
 }
 
-// TODO: change the dependencies in order to update the control hub
-// 7.0.0 was for Freight Frenzy in 2021
+// todo update the following gradle lines to update robot controller app
+// hint: 7.0.0 was the initial release for Freight Frenzy in 2021
 
 dependencies {
     implementation 'org.firstinspires.ftc:Inspection:7.0.0'
@@ -18,9 +18,12 @@ dependencies {
     implementation 'org.firstinspires.ftc:OnBotJava:7.0.0'
     implementation 'org.firstinspires.ftc:Hardware:7.0.0'
     implementation 'org.firstinspires.ftc:FtcCommon:7.0.0'
+
+    implementation 'org.firstinspires.ftc:gameAssets-FreightFrenzy:1.0.0'
+
+    // unrelated
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.2.0'
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'org.firstinspires.ftc:gameAssets-FreightFrenzy:1.0.0'
 
 }
 

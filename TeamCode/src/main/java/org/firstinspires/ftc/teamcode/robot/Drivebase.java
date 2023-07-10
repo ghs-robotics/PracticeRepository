@@ -1,29 +1,24 @@
 package org.firstinspires.ftc.teamcode.robot;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
-import java.util.Arrays;
-import java.util.List;
+
 
 public class Drivebase {
 
     // Constructing the 4 motors used on a mecanum drive
     public DcMotor leftFrontDrive;
-    public DcMotor leftBackDrive;
-    public DcMotor rightFrontDrive;
-    public DcMotor rightBackDrive;
+    public rightFrontDrive;
+    public DcMotor rightBackDrive
 
     public Drivebase(HardwareMap hardwareMap, Telemetry telemetry){
 
-        // Gets the motor from the hub, make sure the name matches the config on the Driver hub
-        // TODO: Find out the names of each motor in the active Drive hub config
-        leftFrontDrive = hardwareMap.get(DcMotor.class, "");
+        leftFrontDrive = hardwareMap.get(DcMotor.class,
         leftBackDrive = hardwareMap.get(DcMotor.class, "");
         rightFrontDrive = hardwareMap.get(DcMotor.class, "");
-        rightBackDrive = hardwareMap.get(DcMotor.class, "");
+         = hardwareMap.get(DcMotor.class, "");
 
         leftFrontDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         leftBackDrive.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
@@ -33,20 +28,19 @@ public class Drivebase {
         telemetry.update();
     }
 
-    // TODO: Declare some variables do some math and use the setDrivePowers function to send power to the motors based on controller input
-    // hint google mecanum drive code
-    public void calculateDrivePowers(double y, double x, double rot){
+    // todo pull your code from the previous level and write working code for this function
+    public calculateDrivePowers(double y, double x, double rot){
 
         setDrivePowers();
-    }
+
 
 
     // Sends power to the drive motors
     public void setDrivePowers(double lf, double lb, double rf, double rb){
         leftFrontDrive.setPower(lf);
-        leftBackDrive.setPower(lb);
-        rightFrontDrive.setPower(rf);
+        Drive.setPower(lb);
+        rightFrontDrivesetPower(rf);
         rightBackDrive.setPower(rb);
     }
 
-}
+

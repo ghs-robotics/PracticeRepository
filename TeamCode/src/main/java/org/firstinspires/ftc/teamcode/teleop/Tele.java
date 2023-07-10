@@ -12,7 +12,7 @@ public class Tele extends LinearOpMode {
 
     @Override
     public void runOpMode() throws InterruptedException {
-        robot = new Drivebase(hardwareMap, telemetry);
+        // todo define the robot constructor here
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
@@ -20,7 +20,9 @@ public class Tele extends LinearOpMode {
         waitForStart();
 
         while (opModeIsActive()){
-            // TODO: call the calculate drive method and put controls that will drive the robot
+
+            // todo call your function here
+            // hint: gamepad1 is the controller input for driving on our team
 
             telemetry.update();
         }
