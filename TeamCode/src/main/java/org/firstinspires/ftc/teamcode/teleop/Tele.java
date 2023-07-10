@@ -22,8 +22,6 @@ public class Tele extends LinearOpMode {
 
         while (opModeIsActive()){
 
-            // hint: you may need to change your function call
-
             telemetry.update();
         }
     }

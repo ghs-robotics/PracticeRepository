@@ -27,8 +27,11 @@ public class MecanumDrive {
 
         telemetry.update();
     }
+    // todo write a metaDrive function that takes in controller input and alters the inputs
+    //      sent calculateDrivePowers so that the robot is always driving straight relative to
+    //      its starting position.
+    // hint: use the gyro heading.
 
-    // todo pull your code from the previous level and write working code for this function
     public calculateDrivePowers(double y, double x, double rot){
 
         setDrivePowers();

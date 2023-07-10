@@ -5,7 +5,6 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 // todo pull your code from the previous level and write working code for this function
-// todo write code for a balldrive - look at our 2019 balldrive bot for ideas
 public class BallDrive {
 
     // Constructing the 4 motors used on a mecanum drive
@@ -16,14 +15,19 @@ public class BallDrive {
         telemetry.update();
     }
 
+    // todo write a metaDrive function that takes in controller input and alters the inputs
+    //      sent calculateDrivePowers so that the robot is always driving straight relative to
+    //      its starting position.
+    // hint: use the gyro heading.
+
     public calculateDrivePowers(double y, double x, double rot){
 
         setDrivePowers();
 
 
 
-        // Sends power to the drive motors
-        public void setDrivePowers(){
-        }
+    // Sends power to the drive motors
+    public void setDrivePowers(){
+    }
 
 
