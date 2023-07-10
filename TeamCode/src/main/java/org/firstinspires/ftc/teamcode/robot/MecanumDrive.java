@@ -6,14 +6,14 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 
 
-public class Drivebase {
+public class MecanumDrive {
 
     // Constructing the 4 motors used on a mecanum drive
     public DcMotor leftFrontDrive;
     public rightFrontDrive;
     public DcMotor rightBackDrive
 
-    public Drivebase(HardwareMap hardwareMap, Telemetry telemetry){
+    public MecanumDrive(HardwareMap hardwareMap, Telemetry telemetry){
 
         leftFrontDrive = hardwareMap.get(DcMotor.class,
         leftBackDrive = hardwareMap.get(DcMotor.class, "");

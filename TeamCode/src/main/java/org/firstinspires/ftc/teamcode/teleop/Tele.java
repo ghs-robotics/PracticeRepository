@@ -3,16 +3,17 @@ package org.firstinspires.ftc.teamcode.teleop;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-import org.firstinspires.ftc.teamcode.robot.Drivebase;
+import org.firstinspires.ftc.teamcode.robot.MecanumDrive;
+import org.firstinspires.ftc.teamcode.robot.Robot;
 
 @TeleOp
 public class Tele extends LinearOpMode {
 
-    Drivebase robot;
+    Robot robot;
 
     @Override
     public void runOpMode() throws InterruptedException {
-        // todo define the robot constructor here
+        robot = new Robot(hardwareMap, telemetry);
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
@@ -21,8 +22,7 @@ public class Tele extends LinearOpMode {
 
         while (opModeIsActive()){
 
-            // todo call your function here
-            // hint: gamepad1 is the controller input for driving on our team
+            // hint: you may need to change your function call
 
             telemetry.update();
         }
