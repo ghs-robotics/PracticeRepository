@@ -6,7 +6,6 @@ repositories {
     }
 }
 
-// todo update the following gradle lines to update robot controller app
 // hint: 7.0.0 was the initial release for Freight Frenzy in 2021
 
 dependencies {

@@ -6,6 +6,7 @@ import org.firstinspires.ftc.robotcore.external.Telemetry;
 
 
 
+// todo fix the errors in this file - you will have succeeded once the project can build
 public class Drivebase {
 
     // Constructing the 4 motors used on a mecanum drive
@@ -28,7 +29,6 @@ public class Drivebase {
         telemetry.update();
     }
 
-    // todo pull your code from the previous level and write working code for this function
     public calculateDrivePowers(double y, double x, double rot){
 
         setDrivePowers();

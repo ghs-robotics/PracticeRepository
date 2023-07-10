@@ -12,7 +12,6 @@ public class Tele extends LinearOpMode {
 
     @Override
     public void runOpMode() throws InterruptedException {
-        // todo define the robot constructor here
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
@@ -20,9 +19,6 @@ public class Tele extends LinearOpMode {
         waitForStart();
 
         while (opModeIsActive()){
-
-            // todo call your function here
-            // hint: gamepad1 is the controller input for driving on our team
 
             telemetry.update();
         }
