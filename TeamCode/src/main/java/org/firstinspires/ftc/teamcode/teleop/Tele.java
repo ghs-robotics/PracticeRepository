@@ -4,8 +4,6 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.robot.Robot;
 
-import org.firstinspires.ftc.teamcode.robot.Drivebase;
-
 @TeleOp
 public class Tele extends LinearOpMode {
 
