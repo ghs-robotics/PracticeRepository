@@ -22,8 +22,7 @@ public class Tele extends LinearOpMode {
 
         while (opModeIsActive()){
 
-            // hint: you may need to change your function call
-
+            // hint: use telemetry.addDate to get the heading to be displayed on the DH
             telemetry.update();
         }
     }
